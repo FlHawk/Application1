@@ -11,4 +11,14 @@
     <string name="button2">+2分</string>
     <string name="button3">+3分</string>
     <string name="button4">重置</string>
+    <string name="teamA">A队</string>
+    <string name="teamB">B队</string>
+    <string name="startnumber">0</string>
+    <string name="exchangehint">请输入人民币</string>
+    <string name="button5">欧元</string>
+    <string name="button6">美元</string>
+    <string name="button7">韩元</string>
+    <string name="button_config">设置</string>
+    <string name="button_save">保存</string>
+    <string name="button_exchange">汇率转换</string>
 </resources>

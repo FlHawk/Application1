@@ -25,4 +25,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
+    public void jumpexchange(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this,exchange.class);
+        startActivity(intent);
+    }
 }

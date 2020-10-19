@@ -23,25 +23,38 @@
         android:id="@+id/button2"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="376dp"
+        android:layout_marginBottom="388dp"
+        android:onClick="jumpcalculator"
         android:text="@string/calculator"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        android:onClick="jumpcalculator"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="246dp"
-        android:layout_height="97dp"
+        android:layout_width="267dp"
+        android:layout_height="131dp"
         android:gravity="center_horizontal"
         android:text="@string/app_name"
-        android:textSize="36dp"
+        android:textSize="36sp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.591" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="138dp"
+        android:layout_height="59dp"
+        android:text="@string/button_exchange"
+        android:onClick="jumpexchange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>

@@ -1,13 +1,24 @@
 <resources>
-    <string name="app_name">Temperature Calculator</string>
+    <string name="app_name">Temperature and Court Counting</string>
     <string name="temperature">temperature</string>
-    <string name="calculator">calculator</string>
-    <string name="calculatorname">calculator</string>
+    <string name="calculator">court counting</string>
+    <string name="calculatorname">court counting</string>
     <string name="temperaturename">Temperature change</string>
     <string name="inputhint">please input the temperature℃</string>
     <string name="tembutton">℃ convert ℉</string>
-    <string name="button1">+1 ponint(s)</string>
+    <string name="button1">FREE THROW</string>
     <string name="button2">+2 ponint(s)</string>
     <string name="button3">+3 ponint(s)</string>
     <string name="button4">reset</string>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="startnumber">0</string>
+    <string name="exchangehint">Input RMB</string>
+    <string name="button5">EURO</string>
+    <string name="button6">DOLLAR</string>
+    <string name="button7">WON</string>
+    <string name="button_config">CONFIG</string>
+    <string name="button_save">SAVE</string>
+    <string name="button_exchange">EXCHANGE</string>
+
 </resources>
