@@ -59,7 +59,7 @@ public class RateList extends AppCompatActivity implements Runnable, AdapterView
         listView = findViewById(R.id.mylist);
         listView.setOnItemClickListener(this);
         listView.setOnItemLongClickListener(this);
-//        listView.setEmptyView(findViewById(R.id.nodata));
+        listView.setEmptyView(findViewById(R.id.nodata));
 
         sp = getSharedPreferences("myrate", Activity.MODE_PRIVATE);
         date = sp.getString("date", "");

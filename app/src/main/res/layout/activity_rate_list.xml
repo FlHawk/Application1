@@ -15,4 +15,12 @@
         android:layout_alignParentLeft="true"
         android:id="@+id/mylist"
         android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/nodata"
+        android:gravity="center"
+        android:text="No Data"
+        />
 </android.support.constraint.ConstraintLayout>
