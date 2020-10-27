@@ -43,7 +43,7 @@ public class Calculator extends AppCompatActivity {
     protected void OnRestoreInstanceState(Bundle savedInstanceState){
         super.onRestoreInstanceState(savedInstanceState);
         String scorea = savedInstanceState.getString("teama_score");
-        String scoreb = savedInstanceState.getString("teamb_score");
+        String scoreb = savedInstanceState.getString("teamb_score");//
         
         Log.i(TAG,"onRestoreInstanceState:");
         ((TextView)findViewById(R.id.textView6)).setText(scorea);
